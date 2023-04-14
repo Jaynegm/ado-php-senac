@@ -95,7 +95,7 @@ teste("3 é maior que 2.", () => retornaMaiorNumero(3, 2), igual(3));
 <?php
     // Esta é a implementação que visa burlar o teste.
     // Ela foi feita apenas para passar nos dois testes acima, mesmo estando
-    // totalmente errada em qualquer outro caso.
+    // totalmente errada em qualquer outro caso
     if ($_GET("a") === 4) echo "7";
     echo "3";
 ?>
